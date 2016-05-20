@@ -1,6 +1,9 @@
 <!DOCTYPE HTML>
 <!-- 
-    This the basic template to start your project with the framework of bootstrap
+    In this example shopw some examples to container 
+    and add a new personalize style to some contents in 
+    the document later
+    
 -->
 
 <html>
@@ -19,22 +22,73 @@
             <!-- div  container centra el header
                  div  container-fluid hace que el contenido abarque el 100% del tamanio 
             -->
-            <div class="container">
+            <div class="container-fluid">
                 <h1> Header</h1>
             </div>
         </header>
 
-        <section class="main">
-            
-        </section>
+        <div class="container-fluid">
+            <!-- 
+                main in the style of the class that I creare in custom.css
+                row is the style provided by bootstrap to specifi the rows 
+                colum will be the division in a vertical way
 
-    
-        <section class="content">
-        </section>
+                types of columns 
 
-    
-        <section class="about">
-        </section>
+                col-xm -> col extra small -> its use is for mobys
+                col-sm -> col small -> its for mobil devices for more entring in the tables
+                col-md -> tablets more bigger and horizontal format
+                col-lg -> for desktop computers 
+
+            -->
+            <section class="main row">
+                <div class="col-xm-12  col-md-7 col-lg-6">
+                     <center>
+
+                    The suricatos are animals who live in the africa desert called sahara
+                    </center>
+                </div>
+                <div class="col-xm-12 col-md-5 col-lg-6" style="background:#FFFFFF">
+                    <center>
+                    <img src="static/img/suricato.jpg" alt="Some picture">
+                    </center>
+                </div>
+             </section>
+        </div>
+
+        <div class="container-fluid">    
+            <section class="content row">
+                <div class="col-xm-12  col-md-3 col-lg-3" style="background:#F3F781">
+                    The Disney movie The Little Mermaid was first released to theatres in 1989.
+                    The movie earned $87 million during its initial release.
+                </div>
+                <div class="col-xm-12  col-md-3 col-lg-3" style="background:#D8F781">
+                    The Disney movie The Little Mermaid was first released to theatres in 1989.
+                    The movie earned $87 million during its initial release.
+                </div>
+                <div class="col-xm-12  col-md-3 col-lg-3" style="background:#BEF781">
+                    The Disney movie The Little Mermaid was first released to theatres in 1989.
+                    The movie earned $87 million during its initial release.
+                </div>
+                <div class="col-xm-12  col-md-3 col-lg-3" style="background:#A9F5A9">
+                    The Disney movie The Little Mermaid was first released to theatres in 1989.
+                    The movie earned $87 million during its initial release.
+                </div>
+            </section>
+        </div>
+
+        <div class="container-fluid">    
+            <section class="about row">
+                <h1> Content</h1>
+            </section>
+        </div>
+        <!-- 
+            This class help to correct some issues thta appear when some blocks are bigger thn other
+            and the blocks become unaligned
+        -->
+        <div class="clearfix visible-sm-block">
+        </div>
+
 
 
 
