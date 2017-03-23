@@ -1,0 +1,23 @@
+header {
+  background: #2c3e50;
+  color: #fff;
+}
+
+.main {
+  background: rgb(182, 137, 24);
+}
+
+.color1 {
+  background: rgb(205, 69, 41);
+  color:  rgb(255, 255, 255);
+}
+
+aside {
+  background: rgb(0, 227, 38);
+  color: rgb(255, 255, 255);
+}
+
+footer {
+  color: #fff;
+  background: rgb(74, 134, 177);
+}
