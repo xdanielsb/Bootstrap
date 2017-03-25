@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title> </title>
-    <meta name="viewport" content="width=device-width, initial-scale=2.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
     <!-- Latest compiled and minified CSS Bootstrap -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
@@ -11,11 +11,88 @@
     <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 
+    <!-- Custom css  the same of the grid-->
+    <link rel="stylesheet" href="../grid/css/style.css">
 
   </head>
+
+
   <body>
 
-  
+  <header>
+    <!-- With the class container we can align to the center all things -->
+    <!-- With container-fluid  class encompass  all the size -->
+    <div class="container">
+      <h1> Hello </h1>
+    </div>
+  </header>
+
+
+  <div class="container">
+    <section class="main row">
+      <article class="col-xs-12 col-sm-9 col-md-9 col-lg-9">
+        <p>
+          <h3>article</h3>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio hic modi sunt corporis reiciendis ad eaque libero porro qui accusamus, dignissimos repudiandae distinctio eos expedita molestias, sapiente nesciunt esse. Nemo?
+          <!-- hide at the moment to print -->
+          <a href="" class="btn btn-primary pull-right hidden-print"> This a simple link</a>
+        </p>
+      </article>
+
+      <!-- visible-lg means that you only want to see the aside in large devices  -->
+      <aside class="visible-md visible-lg col-xs-12 col-sm-3 col-md-3 col-lg-3">
+        <p>
+          <h3>Menu </h3>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Esse molestias nihil laudantium pariatur in earum, incidunt illum quibusdam magni aperiam quos saepe distinctio eos voluptate labore optio ut praesentium deserunt.
+        </p>
+      </aside>
+    </section>
+
+        <div class="col-xs-12 col-sm-6 col-md-3">
+        <p>
+          <h3>Columna 1</h3>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quisquam rem voluptates doloribus quae vero, facilis velit. Qui fuga soluta, sed officia hic? Temporibus vitae totam asperiores rerum inventore a sequi.
+        </p>
+        </div>
+        <!-- hidden-sm hiddes in a specific size -->
+        <div class="hidden-xs hidden-sm col-xs-12 col-sm-6 color1 col-md-3">
+          <p>
+            <h3>Columna 2</h3>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Similique libero fugiat blanditiis aperiam voluptates. Unde fugit enim aperiam iure, cupiditate! Deleniti voluptas repellendus aliquid sint accusan
+            tium sunt, error quae. Accusamus?
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rerum placeat repellendus debitis, amet! Accusantium porro, rerum atque quisquam iste maxime sapiente, consectetur illum inventore aut, mollitia commodi distinctio.
+          </p>
+          <p>
+            Dolor, explicabo.
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ullam dignissimos minima quisquam, perspiciatis eum ratione quasi aspernatur obcaecati deserunt iure! Possimus doloribus iste, cupiditate repellendus dolores est vero consectetur, ex?
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Perferendis porro ea voluptate vel iste id, tempora. Iste earum sequi cupiditate, ab. Rerum reprehenderit est corrupti officiis porro, nihil deleniti quidem!
+
+        </p>
+        </div>
+        <div class="col-xs-12 col-sm-6 col-md-3">
+        <p>
+          <h3>Columna 3</h3>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellat accusantium quidem culpa saepe quisquam voluptatem, vel. Porro quos consectetur expedita voluptatum. Deserunt labore doloribus pariatur quisquam aut
+          em dignissimos praesentium est.
+        </p>
+        </div>
+        <div class="col-xs-12 col-sm-6 color1 col-md-3">
+          <p>
+            <h3>Columna 4</h3>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure magni, doloribus modi consequatur eaque dicta rerum error obcaecati quisquam laborum mollitia optio autem maiores quae doloremque nobis animi
+          vel quas!
+          </p>
+        </div>
+
+  </div>
+
+  <footer>
+    <div class="container">
+      <h3>Daniel Santos </h3>
+    </div>
+  </footer>
+
+
   <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
 
